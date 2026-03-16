@@ -2,28 +2,29 @@
   "current": "Default",
   "presets": {
     "Default": {
-      "logo_width": 90,
+      "logo": "parfumchart-logo.png",
+      "logo_width": 160,
       "color_schemes": {
         "scheme-1": {
           "settings": {
             "background": "#FFFFFF",
             "background_gradient": "",
-            "text": "#121212",
-            "button": "#121212",
+            "text": "#1A1A1A",
+            "button": "#1A1A1A",
             "button_label": "#FFFFFF",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "secondary_button_label": "#1A1A1A",
+            "shadow": "#1A1A1A"
           }
         },
         "scheme-2": {
           "settings": {
-            "background": "#F3F3F3",
+            "background": "#F8F6F2",
             "background_gradient": "",
-            "text": "#121212",
-            "button": "#121212",
-            "button_label": "#F3F3F3",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "text": "#1A1A1A",
+            "button": "#C9A96E",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#1A1A1A",
+            "shadow": "#1A1A1A"
           }
         },
         "scheme-3": {
