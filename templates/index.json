@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -6,26 +15,26 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Entdecke dein Signature Scent",
+            "heading": "Image banner",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Premium Parfums zu Hammer-Preisen. Authentisch. Günstig. Schnell geliefert.",
-            "text_style": "subtitle"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Jetzt shoppen",
+            "button_label_1": "Shop all",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "Parfum-Vergleich",
-            "button_link_2": "shopify://collections/all",
-            "button_style_secondary_2": true
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -35,14 +44,16 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/2026-03-17-parfumchart-hero-banner.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
+        "image_behavior": "none",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -52,14 +63,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Warum parfumchart?",
+            "heading": "Talk about your brand",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Bei parfumchart findest du über 70 Premium- und Nischen-Parfums zu den günstigsten Preisen in Deutschland. Alle Produkte sind 100% authentisch und stammen aus legalen EU-Parallelimporten. Vergleiche, entdecke und kaufe dein nächstes Lieblingsparfum.</p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -68,6 +79,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
@@ -77,20 +90,81 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Bestseller Parfums",
-        "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
         "color_scheme": "scheme-1",
-        "show_view_all": true,
-        "swipe_on_mobile": false,
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -100,8 +174,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "✓ 100% Authentisch",
-            "text": "<p>Alle Parfums sind original und stammen aus geprüften EU-Parallelimporten. Keine Fakes, keine Kompromisse.</p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -109,8 +183,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "💸 Bestpreise in DE",
-            "text": "<p>Bis zu 60% günstiger als der UVP. Wir vergleichen täglich die Preise – damit du immer das beste Angebot bekommst.</p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -118,8 +192,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "🚚 Schnelle Lieferung",
-            "text": "<p>Versand aus der EU. Lieferung innerhalb von 3–5 Werktagen. Kostenloser Versand ab 49 €.</p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -135,14 +209,14 @@
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -152,6 +226,8 @@
     "image_banner",
     "rich_text",
     "featured_collection",
+    "collage",
+    "video",
     "multicolumn"
   ]
 }
