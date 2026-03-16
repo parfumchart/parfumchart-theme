@@ -2,7 +2,6 @@
   "current": "Default",
   "presets": {
     "Default": {
-      "logo": "parfumchart-logo.png",
       "logo_width": 160,
       "color_schemes": {
         "scheme-1": {
